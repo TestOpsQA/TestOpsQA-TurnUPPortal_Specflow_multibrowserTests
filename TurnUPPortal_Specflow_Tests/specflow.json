@@ -1,0 +1,17 @@
+{
+    "runtime": {
+        "features": [
+            "**/*.feature"
+        ]
+    },
+    "binding": {
+        "language": "csharp"
+    },
+    "execution": {
+        "test-thread-count": 5,
+        "parallel": {
+            "feature": true,
+            "scenarios": true
+        }
+    }
+}

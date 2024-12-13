@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.27.0" />
+    <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.9.40" />
+    <PackageReference Include="nunit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
+    <PackageReference Include="FluentAssertions" Version="6.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Drivers\" />
+    <Folder Include="Support\" />
+    <Folder Include="TurnUPPortal_Specflow_Tests\.git\objects\info\" />
+    <Folder Include="TurnUPPortal_Specflow_Tests\.git\refs\tags\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="TurnUPPortal_Specflow_Tests\.git\config" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\description" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\HEAD" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\applypatch-msg.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\commit-msg.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\post-update.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\pre-applypatch.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\pre-commit.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\pre-merge-commit.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\pre-push.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\pre-rebase.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\pre-receive.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\push-to-checkout.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\sendemail-validate.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\hooks\update.sample" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\index" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\info\exclude" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\logs\HEAD" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\logs\refs\heads\main" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\logs\refs\remotes\origin\HEAD" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\objects\pack\pack-ac1a76d253bb9286ae71cd793efa0b7583724a2a.idx" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\objects\pack\pack-ac1a76d253bb9286ae71cd793efa0b7583724a2a.pack" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\objects\pack\pack-ac1a76d253bb9286ae71cd793efa0b7583724a2a.rev" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\packed-refs" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\refs\heads\main" />
+    <None Include="TurnUPPortal_Specflow_Tests\.git\refs\remotes\origin\HEAD" />
+  </ItemGroup>
+
+</Project>

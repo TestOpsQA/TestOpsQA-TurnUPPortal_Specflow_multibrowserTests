@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+    <RunConfiguration>
+        <!-- Specify the target framework version -->
+        <TargetFrameworkVersion>net6.0</TargetFrameworkVersion>
+        
+        <!-- Test parameters for browsers -->
+        <TestParameters>
+            <Parameter name="Browsers" value="chrome,firefox,edge"/>
+        </TestParameters>
+    </RunConfiguration>
+
+    <NUnit>
+        <TestSuite>
+            <Execution>
+                <!-- Parallelize at the class level -->
+                <Parallelize level="Scenarios"/>
+            </Execution>
+        </TestSuite>
+    </NUnit>
+</RunSettings>
